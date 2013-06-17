@@ -15,6 +15,11 @@
 		410F5901156D82A300D8124E /* SoundRecAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F5900156D82A300D8124E /* SoundRecAppDelegate.m */; };
 		410F5904156D82A300D8124E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 410F5902156D82A300D8124E /* MainStoryboard.storyboard */; };
 		410F5907156D82A300D8124E /* SoundRecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 410F5906156D82A300D8124E /* SoundRecViewController.m */; };
+		410F590E156D989000D8124E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410F590D156D989000D8124E /* AVFoundation.framework */; };
+		410F5910156DB72600D8124E /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410F590F156DB72600D8124E /* CoreAudio.framework */; };
+		410F5916156DCA3C00D8124E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410F5915156DCA3C00D8124E /* AudioToolbox.framework */; };
+		417E5D491585A36E008E9822 /* voizme-n743-d732.png in Resources */ = {isa = PBXBuildFile; fileRef = 417E5D481585A36E008E9822 /* voizme-n743-d732.png */; };
+		4182152F15859C2F00B28D0C /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4182152E15859C2F00B28D0C /* icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,20 @@
 		410F58F0156D82A300D8124E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		410F58F2156D82A300D8124E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		410F58F4156D82A300D8124E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		410F58F8156D82A300D8124E /* SoundRec-Info.plist */ = {isa = PBXFileReference; path = "SoundRec-Info.plist"; sourceTree = "<group>"; };
+		410F58F8156D82A300D8124E /* SoundRec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundRec-Info.plist"; sourceTree = "<group>"; };
 		410F58FA156D82A300D8124E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		410F58FC156D82A300D8124E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		410F58FE156D82A300D8124E /* SoundRec-Prefix.pch */ = {isa = PBXFileReference; path = "SoundRec-Prefix.pch"; sourceTree = "<group>"; };
-		410F58FF156D82A300D8124E /* SoundRecAppDelegate.h */ = {isa = PBXFileReference; path = SoundRecAppDelegate.h; sourceTree = "<group>"; };
+		410F58FE156D82A300D8124E /* SoundRec-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundRec-Prefix.pch"; sourceTree = "<group>"; };
+		410F58FF156D82A300D8124E /* SoundRecAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundRecAppDelegate.h; sourceTree = "<group>"; };
 		410F5900156D82A300D8124E /* SoundRecAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundRecAppDelegate.m; sourceTree = "<group>"; };
 		410F5903156D82A300D8124E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		410F5905156D82A300D8124E /* SoundRecViewController.h */ = {isa = PBXFileReference; path = SoundRecViewController.h; sourceTree = "<group>"; };
+		410F5905156D82A300D8124E /* SoundRecViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundRecViewController.h; sourceTree = "<group>"; };
 		410F5906156D82A300D8124E /* SoundRecViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundRecViewController.m; sourceTree = "<group>"; };
+		410F590D156D989000D8124E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		410F590F156DB72600D8124E /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		410F5915156DCA3C00D8124E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		417E5D481585A36E008E9822 /* voizme-n743-d732.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voizme-n743-d732.png"; sourceTree = "<group>"; };
+		4182152E15859C2F00B28D0C /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				410F5916156DCA3C00D8124E /* AudioToolbox.framework in Frameworks */,
+				410F5910156DB72600D8124E /* CoreAudio.framework in Frameworks */,
+				410F590E156D989000D8124E /* AVFoundation.framework in Frameworks */,
 				410F58F1156D82A300D8124E /* UIKit.framework in Frameworks */,
 				410F58F3156D82A300D8124E /* Foundation.framework in Frameworks */,
 				410F58F5156D82A300D8124E /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +80,9 @@
 		410F58EF156D82A300D8124E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				410F5915156DCA3C00D8124E /* AudioToolbox.framework */,
+				410F590F156DB72600D8124E /* CoreAudio.framework */,
+				410F590D156D989000D8124E /* AVFoundation.framework */,
 				410F58F0156D82A300D8124E /* UIKit.framework */,
 				410F58F2156D82A300D8124E /* Foundation.framework */,
 				410F58F4156D82A300D8124E /* CoreGraphics.framework */,
@@ -90,6 +106,8 @@
 		410F58F7156D82A300D8124E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				417E5D481585A36E008E9822 /* voizme-n743-d732.png */,
+				4182152E15859C2F00B28D0C /* icon.png */,
 				410F58F8156D82A300D8124E /* SoundRec-Info.plist */,
 				410F58F9156D82A300D8124E /* InfoPlist.strings */,
 				410F58FC156D82A300D8124E /* main.m */,
@@ -151,6 +169,8 @@
 			files = (
 				410F58FB156D82A300D8124E /* InfoPlist.strings in Resources */,
 				410F5904156D82A300D8124E /* MainStoryboard.storyboard in Resources */,
+				4182152F15859C2F00B28D0C /* icon.png in Resources */,
+				417E5D491585A36E008E9822 /* voizme-n743-d732.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,7 +229,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -227,7 +247,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -240,6 +260,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundRec/SoundRec-Prefix.pch";
 				INFOPLIST_FILE = "SoundRec/SoundRec-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -251,6 +272,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundRec/SoundRec-Prefix.pch";
 				INFOPLIST_FILE = "SoundRec/SoundRec-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +297,7 @@
 				410F590C156D82A300D8124E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
